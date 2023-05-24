@@ -20,6 +20,15 @@ public:
 	void cetakDokter();
 };
 
+class dokter {
+public:
+	string nama;
+	vector<pasien*> daftar_pasien;
+
+	void tambahPasien(pasien*);
+	void cetakPasien();
+};
+
 int main() {
 
 }
